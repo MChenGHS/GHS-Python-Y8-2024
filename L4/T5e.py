@@ -1,6 +1,6 @@
 score = int(input("Enter the score: "))
 
-if 0 <= score <= 100:
+if score >= 0 and score <= 100:
     if score >= 80:
         grade = "M"
     elif score >= 60:
